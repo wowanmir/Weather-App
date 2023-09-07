@@ -3,10 +3,9 @@
   padding: 0;
 }
 body {
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    color: white;
-    background: #112d49;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  horizontal-gradient {
+    background: linear-gradient(#aac0ff, #8c6bae);
 }
-
