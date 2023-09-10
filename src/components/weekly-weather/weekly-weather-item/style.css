@@ -1,0 +1,20 @@
+.weekly-weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+
+  .weekly-weather-item {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 400px;
+    background-color: #AAC0FF;
+    border-radius: 40px;
+    box-shadow: 3px 5px 5px white;
+    gap: 20px;
+    padding: 10%;
+  }
+
+  

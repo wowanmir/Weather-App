@@ -3,8 +3,8 @@
   padding: 0;
 }
 body {
-  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 36px/ 1.42 "Inter", Arial, sans-serif;
   color: white;
-  background: #8c6bae;
+  background: linear-gradient(to right, #AAC0FF, #8c6bae);
+  height: 100vh;
 }

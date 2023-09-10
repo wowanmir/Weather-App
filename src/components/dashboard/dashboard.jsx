@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { getWeatherData } from "../../js/api";
 import Title from "../title/title";
-import Description from "../description/Description"
+import Description from "../description/description"
 import { WeeklyWeather } from "../weekly-weather/weekly-weather";
-
+import "./style.css"
 function Dashboard() {
   const [weatherData, setWeatherData] = useState({});
 
@@ -19,8 +19,9 @@ function Dashboard() {
   }, []);
 
   return (
-    <>
+    <div className="wrapper">
       <Title
+        imgWeather={weatherData?.weather?.icon}
         currentTemp={weatherData?.main?.temp.toFixed()}
         cityName={weatherData?.name}
       />
@@ -31,7 +32,7 @@ function Dashboard() {
         pressure={weatherData?.main?.pressure}
       />
       <WeeklyWeather />
-    </>
+    </div>
   );
 }
 

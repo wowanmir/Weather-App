@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getWeeklyWeather } from "../../js/api";
 import { WeeklyWeatherItem } from "./weekly-weather-item/weekly-weather-item";
-
+import "./weekly-weather-item/style.css";
 export const WeeklyWeather = () => {
   const [weeklyData, setWeeklyData] = useState({
     list: []
@@ -19,7 +19,7 @@ export const WeeklyWeather = () => {
   }, []);
 
   return (
-    <div>
+    <div className="weekly-weather">
       {weeklyData.list.splice(0, 5).map((list) => (
         <WeeklyWeatherItem
         temp={list?.main?.temp.toFixed()}

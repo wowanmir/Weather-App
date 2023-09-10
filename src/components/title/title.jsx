@@ -1,6 +1,13 @@
-function Title({ currentTemp, cityName }) {
-  return <div>{currentTemp}
-  {cityName}</div>;
+import "./style.css";
+function Title({ currentTemp, cityName, imgWeather }) {
+  return (
+    <div className="title">
+      <div className="temp">{currentTemp} °C</div>
+      <div className="city">
+      {cityName}
+      </div>
+    </div>
+  );
 }
 
 export default Title;
