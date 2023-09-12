@@ -1,22 +1,24 @@
 .weekly-weather {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin-top: 5%;
   margin-left: -2%;
   width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
+  gap: 20px;
 }
 
 .weekly-weather-item {
   display: flex;
   flex-direction: column;
-  background-color: #aac0ff;
+  align-items: center;
+  background-color: rgba(255, 255, 255, .2);
   border-radius: 15px;
   box-shadow: 1px 0px 0px white;
   gap: 20px;
-  padding: 10%;
-  margin: 5%;
+  padding:10px;
+  width:110px;
+  height: 200px;
 }
