@@ -1,12 +1,12 @@
 .title {
   display: flex;
   flex-direction: column;
-  height: 100%;
   
 }
 .temp {
   font-size: 3em;
 }
 .city {
+  margin-top: 10px;
   font-size: 1.55em;
 }

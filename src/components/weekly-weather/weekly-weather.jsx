@@ -4,8 +4,8 @@ import { WeeklyWeatherItem } from "./weekly-weather-item/weekly-weather-item";
 import "./weekly-weather-item/style.css";
 export const WeeklyWeather = () => {
   const [weeklyData, setWeeklyData] = useState({
-    list: []
-    });
+    list: [],
+  });
 
   useEffect(() => {
     getWeeklyWeather()
@@ -22,10 +22,10 @@ export const WeeklyWeather = () => {
     <div className="weekly-weather">
       {weeklyData.list.splice(0, 5).map((list) => (
         <WeeklyWeatherItem
-        temp={list?.main?.temp.toFixed()}
-        weather={list?.weather?.icon}
-        day={list?.dt_txt}
-      />
+          temp={list?.main?.temp.toFixed()}
+          weather={list?.weather[0].icon}
+          day={list?.dt_txt}
+        />
       ))}
     </div>
   );
