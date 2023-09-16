@@ -11,33 +11,13 @@ export function WeeklyWeatherItem({ temp, weather, day }) {
     }
   };
 
-  const getDayTitle  = (day) => {
-    const currentDay = new Date(day).getDay()
-    switch (currentDay) {
-      case 0:
-        return "Воскресенье"
-      case 1:
-        return "Понедельник"
-      case 2:
-        return "Вторник"
-      case 3:
-        return "Среда"
-      case 4:
-        return "Четверг"
-      case 5:
-        return "Пятница"
-      case 6:
-        return "Суббота"
-        default: 
-        return currentDay
-    }
-  }
+
 
   return (
     <div className="weekly-weather-item">
       <span>{temp} °C</span>
       <span> {getIconWeather(weather)}</span>
-      <span> {getDayTitle(day)}</span>
+      <span> {day}</span>
     </div>
   );
 }
