@@ -1,13 +1,13 @@
 .weekly-weather {
   display: flex;
   flex-direction: row;
-  margin-top: 5%;
-  margin-left: -2%;
+
   width: 100%;
+  overflow: auto;
   height: 100%;
   position: relative;
-  overflow: hidden;
   gap: 20px;
+  padding: 50px 15px 0 0;
 }
 
 .weekly-weather-item {
