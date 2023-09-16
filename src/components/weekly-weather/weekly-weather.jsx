@@ -17,7 +17,7 @@ export const WeeklyWeather = () => {
         console.log(error);
       });
   }, []);
-  console.log('wweeklyData', weeklyData)
+
   return (
     <div className="weekly-weather">
       {weeklyData.list.splice(0, 5).map((list) => (
