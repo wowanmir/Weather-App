@@ -9,7 +9,7 @@ import React from "react";
 //     return null;
 //   }
 // };
-export const SvgSelector = ( id ) => {
+export const svgSelector = ( id ) => {
   switch (id) {
     case "01d":
       return (
@@ -40,9 +40,9 @@ export const SvgSelector = ( id ) => {
               width="241.856"
               height="243.042"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -61,9 +61,9 @@ export const SvgSelector = ( id ) => {
               width="187.377"
               height="151.065"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -107,9 +107,9 @@ export const SvgSelector = ( id ) => {
               width="248.008"
               height="249.379"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -128,9 +128,9 @@ export const SvgSelector = ( id ) => {
               width="154.687"
               height="150.413"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -185,9 +185,9 @@ export const SvgSelector = ( id ) => {
               width="390.345"
               height="270"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -206,9 +206,9 @@ export const SvgSelector = ( id ) => {
               width="164.15"
               height="133.561"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -227,9 +227,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -308,9 +308,9 @@ export const SvgSelector = ( id ) => {
               width="406"
               height="280.152"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -329,9 +329,9 @@ export const SvgSelector = ( id ) => {
               width="138.879"
               height="135.194"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -350,9 +350,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -421,9 +421,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="229"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -442,9 +442,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -513,9 +513,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="229"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -534,9 +534,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -588,20 +588,20 @@ export const SvgSelector = ( id ) => {
             <path
               d="M151.908 60.9314C151.908 60.9314 142.144 74.1674 134.513 73.7314C124.947 73.1694 123.313 61.6314 114.445 60.9314C105.167 61.0704 104.22 73.0314 94.164 73.7314C85.154 73.5704 81.337 61.1494 72.748 60.9314C64.159 60.7134 55.004 73.7314 55.004 73.7314"
               stroke="white"
-              stroke-width="16"
-              stroke-linecap="round"
+              strokeWidth="16"
+              strokeLinecap="round"
             />
             <path
               d="M157.919 134.931C157.919 134.931 143.219 148.167 131.726 147.731C117.326 147.169 114.855 135.631 101.508 134.931C87.538 135.07 86.108 147.031 70.969 147.731C57.403 147.568 51.655 135.148 38.719 134.931C25.783 134.714 12 147.731 12 147.731"
               stroke="white"
-              stroke-width="16"
-              stroke-linecap="round"
+              strokeWidth="16"
+              strokeLinecap="round"
             />
             <path
               d="M241.919 185.931C241.919 185.931 227.219 199.167 215.726 198.731C201.326 198.169 198.855 186.631 185.508 185.931C171.538 186.07 170.108 198.031 154.969 198.731C141.403 198.568 135.655 186.148 122.719 185.931C109.783 185.714 96 198.731 96 198.731"
               stroke="white"
-              stroke-width="16"
-              stroke-linecap="round"
+              strokeWidth="16"
+              strokeLinecap="round"
             />
             <path
               d="M232.185 140.929C265.76 140.929 292.977 113.574 292.977 79.8284C292.977 46.0832 265.76 18.7274 232.185 18.7274C198.611 18.7274 171.393 46.0832 171.393 79.8284C171.393 113.574 198.611 140.929 232.185 140.929Z"
@@ -622,9 +622,9 @@ export const SvgSelector = ( id ) => {
               width="296.977"
               height="196.014"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -643,9 +643,9 @@ export const SvgSelector = ( id ) => {
               width="116.622"
               height="97.7435"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -673,20 +673,20 @@ export const SvgSelector = ( id ) => {
             <path
               d="M149.908 58.6799C149.908 58.6799 140.144 71.9159 132.513 71.4799C122.947 70.9179 121.313 59.3799 112.445 58.6799C103.167 58.8189 102.22 70.7799 92.1639 71.4799C83.1539 71.3189 79.3369 58.8979 70.7479 58.6799C62.1589 58.4619 53.0039 71.4799 53.0039 71.4799"
               stroke="white"
-              stroke-width="16"
-              stroke-linecap="round"
+              strokeWidth="16"
+              strokeLinecap="round"
             />
             <path
               d="M157.919 132.68C157.919 132.68 143.219 145.916 131.726 145.48C117.326 144.918 114.855 133.38 101.508 132.68C87.538 132.819 86.108 144.78 70.969 145.48C57.403 145.317 51.655 132.897 38.719 132.68C25.783 132.463 12 145.48 12 145.48"
               stroke="white"
-              stroke-width="16"
-              stroke-linecap="round"
+              strokeWidth="16"
+              strokeLinecap="round"
             />
             <path
               d="M239.919 183.68C239.919 183.68 225.219 196.916 213.726 196.48C199.326 195.918 196.855 184.38 183.508 183.68C169.538 183.819 168.108 195.78 152.969 196.48C139.403 196.317 133.655 183.897 120.719 183.68C107.783 183.463 94 196.48 94 196.48"
               stroke="white"
-              stroke-width="16"
-              stroke-linecap="round"
+              strokeWidth="16"
+              strokeLinecap="round"
             />
             <path
               d="M217.391 13.2819C229.233 13.2661 240.805 16.8188 250.598 23.4769C259.489 29.5042 266.593 37.8151 271.163 47.5363C275.732 57.2575 277.599 68.0301 276.566 78.722C275.534 89.4138 271.641 99.6303 265.296 108.298C258.952 116.965 250.389 123.764 240.509 127.979C229.944 132.454 218.307 133.764 207.012 131.749C195.716 129.734 185.249 124.482 176.883 116.63C165.936 106.379 159.251 92.3793 158.162 77.4209C161.618 78.2309 165.156 78.6393 168.705 78.6379C176.389 78.6343 183.949 76.7019 190.693 73.0179C197.436 69.334 203.147 64.0163 207.302 57.5523C211.456 51.0883 213.922 43.6848 214.473 36.0206C215.023 28.3563 213.641 20.6764 210.453 13.6849C212.756 13.4166 215.073 13.282 217.391 13.2819Z"
@@ -707,9 +707,9 @@ export const SvgSelector = ( id ) => {
               width="280.843"
               height="199.208"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -728,9 +728,9 @@ export const SvgSelector = ( id ) => {
               width="96.7134"
               height="94.5995"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -879,9 +879,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="324.162"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -900,9 +900,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1075,9 +1075,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="324.162"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -1096,9 +1096,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1239,9 +1239,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="292.162"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -1260,9 +1260,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1403,9 +1403,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="292.162"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -1424,9 +1424,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1507,9 +1507,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="327"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -1528,9 +1528,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1644,9 +1644,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="327"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -1665,9 +1665,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1752,452 +1752,452 @@ export const SvgSelector = ( id ) => {
             <path
               d="M290.173 261.881V314.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 274.743L299.129 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 274.743L280.713 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 302.806L299.129 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 302.806L280.713 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M312.832 275.254L267.264 301.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.64 281.593L314.272 284.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.64 281.593L305.064 268.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.337 295.624L273.767 308.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.337 295.624L264.559 292.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M312.58 301.563L267.012 275.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.494 295.04L305.064 307.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.494 295.04L314.272 291.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.191 281.008L264.559 284.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.191 281.008L273.767 268.23"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M197.008 261.881V314.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 274.743L205.964 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 274.743L187.548 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 302.806L205.964 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 302.806L187.548 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M219.667 275.254L174.099 301.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.475 281.593L221.107 284.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.475 281.593L211.899 268.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.172 295.624L180.602 308.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.172 295.624L171.394 292.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M219.415 301.563L173.847 275.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.329 295.04L211.899 307.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.329 295.04L221.107 291.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.026 281.008L171.394 284.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.026 281.008L180.602 268.23"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M104.008 261.881V314.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 274.743L112.964 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 274.743L94.5481 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 302.806L112.964 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 302.806L94.5481 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M126.667 275.254L81.0985 301.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.475 281.593L128.107 284.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.475 281.593L118.899 268.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.1719 295.624L87.6021 308.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.1719 295.624L78.3941 292.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M126.415 301.563L80.8465 275.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.329 295.04L118.899 307.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.329 295.04L128.107 291.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.0259 281.008L78.3941 284.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.0259 281.008L87.6021 268.23"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M149.008 182.881V235.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 195.743L157.964 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 195.743L139.548 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 223.806L157.964 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 223.806L139.548 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M171.667 196.254L126.098 222.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.475 202.593L173.107 205.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.475 202.593L163.899 189.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.172 216.624L132.602 229.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.172 216.624L123.394 213.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M171.415 222.563L125.847 196.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.329 216.04L163.899 228.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.329 216.04L173.107 212.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.026 202.008L123.394 205.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.026 202.008L132.602 189.231"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M252.008 182.881V235.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 195.743L260.964 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 195.743L242.548 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 223.806L260.964 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 223.806L242.548 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M274.667 196.254L229.099 222.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.475 202.593L276.107 205.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.475 202.593L266.899 189.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.172 216.624L235.602 229.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.172 216.624L226.394 213.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M274.415 222.563L228.847 196.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.329 216.04L266.899 228.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.329 216.04L276.107 212.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.026 202.008L226.394 205.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.026 202.008L235.602 189.231"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <g filter="url(#filter1_d_240_5980)">
               <path
@@ -2219,9 +2219,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="296.499"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -2240,9 +2240,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -2294,452 +2294,452 @@ export const SvgSelector = ( id ) => {
             <path
               d="M290.173 261.881V314.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 274.743L299.129 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 274.743L280.713 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 302.806L299.129 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M290.067 302.806L280.713 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M312.832 275.254L267.264 301.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.64 281.593L314.272 284.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.64 281.593L305.064 268.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.337 295.624L273.767 308.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.337 295.624L264.559 292.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M312.58 301.563L267.012 275.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.494 295.04L305.064 307.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M301.494 295.04L314.272 291.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.191 281.008L264.56 284.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M277.191 281.008L273.767 268.23"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M197.008 261.881V314.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 274.743L205.964 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 274.743L187.548 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 302.806L205.964 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M196.902 302.806L187.548 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M219.667 275.254L174.098 301.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.475 281.593L221.107 284.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.475 281.593L211.899 268.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.172 295.624L180.602 308.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.172 295.624L171.394 292.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M219.415 301.563L173.847 275.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.329 295.04L211.899 307.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M208.329 295.04L221.107 291.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.026 281.008L171.395 284.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M184.026 281.008L180.602 268.23"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M104.008 261.881V314.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 274.743L112.964 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 274.743L94.5483 265.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 302.806L112.964 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M103.902 302.806L94.5483 312.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M126.667 275.254L81.0985 301.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.475 281.593L128.107 284.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.475 281.593L118.899 268.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.1719 295.624L87.6021 308.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.1721 295.624L78.3943 292.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M126.415 301.563L80.8465 275.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.329 295.04L118.899 307.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M115.329 295.04L128.107 291.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.0264 281.008L78.3946 284.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M91.0261 281.008L87.6023 268.23"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M149.008 182.881V235.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 195.743L157.964 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 195.743L139.548 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 223.806L157.964 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M148.902 223.806L139.548 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M171.667 196.254L126.098 222.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.475 202.593L173.107 205.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.475 202.593L163.899 189.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.172 216.624L132.602 229.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.172 216.624L123.394 213.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M171.415 222.563L125.847 196.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.329 216.04L163.899 228.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M160.329 216.04L173.107 212.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.026 202.008L123.395 205.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M136.026 202.008L132.602 189.231"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M252.008 182.881V235.499"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 195.743L260.964 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 195.743L242.548 186.389"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 223.806L260.964 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M251.902 223.806L242.548 233.16"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M274.667 196.254L229.098 222.563"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.475 202.593L276.107 205.764"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.475 202.593L266.899 189.815"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.172 216.624L235.602 229.149"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.172 216.624L226.394 213.2"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M274.415 222.563L228.847 196.254"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.329 216.04L266.899 228.565"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M263.329 216.04L276.107 212.616"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.026 202.008L226.395 205.179"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <path
               d="M239.026 202.008L235.602 189.231"
               stroke="#42A0F0"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
             />
             <g filter="url(#filter1_d_240_3367)">
               <path
@@ -2761,9 +2761,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="296.499"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -2782,9 +2782,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -2836,20 +2836,20 @@ export const SvgSelector = ( id ) => {
             <path
               d="M289.8 179.377C289.8 179.377 271.038 196.269 256.374 195.71C237.992 194.993 234.844 180.271 217.81 179.377C199.981 179.554 198.162 194.824 178.837 195.71C161.522 195.504 154.187 179.653 137.683 179.377C121.179 179.101 103.583 195.71 103.583 195.71"
               stroke="white"
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
             <path
               d="M225.8 233.377C225.8 233.377 207.038 250.269 192.374 249.71C173.992 248.993 170.844 234.271 153.81 233.377C135.981 233.554 134.162 248.824 114.837 249.71C97.522 249.504 90.187 233.653 73.683 233.377C57.179 233.101 39.583 249.71 39.583 249.71"
               stroke="white"
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
             <path
               d="M323.8 279.377C323.8 279.377 305.038 296.269 290.374 295.71C271.992 294.993 268.844 280.271 251.81 279.377C233.981 279.554 232.162 294.824 212.837 295.71C195.522 295.504 188.187 279.653 171.683 279.377C155.179 279.101 137.583 295.71 137.583 295.71"
               stroke="white"
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
             <g filter="url(#filter1_d_240_5917)">
               <path
@@ -2871,9 +2871,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="285.723"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -2892,9 +2892,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -2946,20 +2946,20 @@ export const SvgSelector = ( id ) => {
             <path
               d="M310.8 179.377C310.8 179.377 292.038 196.269 277.374 195.71C258.992 194.993 255.844 180.271 238.81 179.377C220.981 179.554 219.162 194.824 199.837 195.71C182.522 195.504 175.187 179.653 158.683 179.377C142.179 179.101 124.583 195.71 124.583 195.71"
               stroke="white"
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
             <path
               d="M246.8 233.377C246.8 233.377 228.038 250.269 213.374 249.71C194.992 248.993 191.844 234.271 174.81 233.377C156.981 233.554 155.162 248.824 135.837 249.71C118.522 249.504 111.187 233.653 94.683 233.377C78.179 233.101 60.583 249.71 60.583 249.71"
               stroke="white"
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
             <path
               d="M344.8 279.377C344.8 279.377 326.038 296.269 311.374 295.71C292.992 294.993 289.844 280.271 272.81 279.377C254.981 279.554 253.162 294.824 233.837 295.71C216.522 295.504 209.187 279.653 192.683 279.377C176.179 279.101 158.583 295.71 158.583 295.71"
               stroke="white"
-              stroke-width="20"
-              stroke-linecap="round"
+              strokeWidth="20"
+              strokeLinecap="round"
             />
             <g filter="url(#filter1_d_240_3552)">
               <path
@@ -2981,9 +2981,9 @@ export const SvgSelector = ( id ) => {
               width="361.345"
               height="285.723"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
@@ -3002,9 +3002,9 @@ export const SvgSelector = ( id ) => {
               width="413.345"
               height="281"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
