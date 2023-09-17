@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { getWeatherData } from "../../js/api";
 import Title from "../title/title";
-import Description from "../description/Description";
+import Description from "../description/description";
 import { WeeklyWeather } from "../weekly-weather/weekly-weather";
-import "./style.css"
+import "./style.css";
 function Dashboard() {
   const [weatherData, setWeatherData] = useState({});
 
@@ -18,15 +18,28 @@ function Dashboard() {
       });
   }, []);
 
+  const today = new Date();
+  const options = {
+    day: "numeric",
+    month: "long",
+    year: "2-digit",
+    hour: "numeric",
+    minute: "numeric",
+    weekday: "long",
+    timeZone: "Asia/Omsk"
+  };
+  const formatter = new Intl.DateTimeFormat("ru-RU", options);
+  const formattedDate = formatter.format(today).replace(/в /g, "");
+  
   return (
     <div className="wrapper">
       <Title
-        imgWeather={weatherData?.weather?.icon}
+        imgWeather={weatherData?.weather?.[0].icon}
         currentTemp={weatherData?.main?.temp.toFixed()}
         cityName={weatherData?.name}
       />
       <Description
-        todayDate={new Date().getUTCDate()}
+        todayDate={formattedDate}
         feelsLike={weatherData?.main?.feels_like.toFixed()}
         humidity={weatherData?.main?.humidity}
         pressure={weatherData?.main?.pressure}

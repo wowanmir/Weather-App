@@ -20,14 +20,16 @@ export const WeeklyWeather = () => {
 
   return (
     <div className="weekly-weather">
-      {weeklyData.list.splice(0, 5).map((list) => (
-        <WeeklyWeatherItem
-        key={list.dt}
-          temp={list?.main?.temp.toFixed()}
-          weather={list?.weather[0].icon}
-          day={list?.dt_txt}
-        />
-      ))}
+      {weeklyData.list
+        .filter((_, index) => index % 8 === 0 && index < 40)
+        .map((list) => (
+          <WeeklyWeatherItem
+            key={list.dt}
+            temp={list?.main?.temp.toFixed()}
+            weather={list?.weather[0].icon}
+            day={list?.dt_txt}
+          />
+        ))}
     </div>
   );
 };

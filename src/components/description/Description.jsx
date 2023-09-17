@@ -1,4 +1,8 @@
 import "./style.css";
+
+import { WindIcon } from "../../icons/wind-icon";
+import { HumidityIcon } from "../../icons/humidity-icon";
+import { PressureIcon } from "../../icons/pressure-icon";
 export default function Description({
   todayDate,
   feelsLike,
@@ -7,13 +11,13 @@ export default function Description({
 }) {
   return (
     <div>
-      {todayDate} <br />
+      {todayDate}
       <div className="wether-description">
-        <span>Ощущается как: {feelsLike} °C</span>
+        <span> <WindIcon /> Ощущается как: {feelsLike} °C</span>
         <span> | </span>
-        <span>Влажность: {humidity}%</span>
+        <span> <HumidityIcon /> Влажность: {humidity}%</span>
         <span> | </span>
-        <span>Давление: {pressure} мм.р.т</span>
+        <span> <PressureIcon /> Давление: {pressure} мм.р.т</span>
       </div>
     </div>
   );
