@@ -10,7 +10,7 @@ function Title({ currentTemp, cityName, imgWeather }) {
     <div className="title">
       <span>{getIconWeather(imgWeather)} </span>
       <span className="temp">
-        {currentTemp} <CelciaIcon size="25" />
+        {currentTemp} <CelciaIcon size="22" />
       </span>
       <span className="city">{cityName}</span>
     </div>

@@ -1,12 +1,16 @@
 .title {
   display: flex;
   flex-direction: column;
-  
+  font-size: 2em;
+  align-items: flex-start;
 }
 .temp {
   font-size: 3em;
+  display: flex;
+}
+.temp svg {
+  margin-left: 10px;
 }
 .city {
-  margin-top: 10px;
-  font-size: 1.55em;
+  font-size: 1.6em;
 }

@@ -1,5 +1,36 @@
 .wether-description {
+  font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 0px 0px;
+}
+.today-data {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feels-like {
+  display: flex;
+  align-items: center;
+}
+.feels-like svg {
+  margin-right: 10px;
+}
+.humidity {
+  display: flex;
+  align-items: center;
+}
+.humidity svg {
+  margin-right: 10px;
+}
 
+.pressure {
+  display: flex;
+  align-items: center;
+}
+
+.pressure svg {
+  margin-right: 10px;
 }

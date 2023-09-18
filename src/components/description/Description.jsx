@@ -11,13 +11,19 @@ export default function Description({
 }) {
   return (
     <div>
-      {todayDate}
+      <span className="today-data">{todayDate}</span>
       <div className="wether-description">
-        <span> <WindIcon /> Ощущается как: {feelsLike} °C</span>
+        <span className="feels-like">
+          <WindIcon /> Ощущается как: {feelsLike} °C
+        </span>
         <span> | </span>
-        <span> <HumidityIcon /> Влажность: {humidity}%</span>
+        <span className="humidity">
+          <HumidityIcon /> Влажность: {humidity}%
+        </span>
         <span> | </span>
-        <span> <PressureIcon /> Давление: {pressure} мм.р.т</span>
+        <span className="pressure">
+          <PressureIcon /> Давление: {pressure} мм.р.т
+        </span>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ export function WeeklyWeatherItem({ temp, weather, day }) {
 
   return (
     <div className="weekly-weather-item">
-      <span> {temp} <CelciaIcon size="10" /> </span>
+      <span className="temp-weekly"> {temp} <CelciaIcon size="15" /> </span>
       <span> {getIconWeather(weather)}</span>
       <span> {getDayWeek(day)}</span>
     </div>

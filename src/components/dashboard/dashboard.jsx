@@ -26,11 +26,14 @@ function Dashboard() {
     hour: "numeric",
     minute: "numeric",
     weekday: "long",
-    timeZone: "Asia/Omsk"
+    timeZone: "Asia/Omsk",
   };
   const formatter = new Intl.DateTimeFormat("ru-RU", options);
   const formattedDate = formatter.format(today).replace(/в /g, "");
-  
+  const dayOfWeek = formattedDate.split(",")[0].trim();
+  const capitalizedDayOfWeek =
+    dayOfWeek.charAt(0).toUpperCase() + dayOfWeek.slice(1);
+  const formatted = formattedDate.replace(dayOfWeek, capitalizedDayOfWeek);
   return (
     <div className="wrapper">
       <Title
@@ -39,7 +42,7 @@ function Dashboard() {
         cityName={weatherData?.name}
       />
       <Description
-        todayDate={formattedDate}
+        todayDate={formatted}
         feelsLike={weatherData?.main?.feels_like.toFixed()}
         humidity={weatherData?.main?.humidity}
         pressure={weatherData?.main?.pressure}
