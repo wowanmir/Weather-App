@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getWeatherData } from "../../js/api";
 import Title from "../title/title";
-import Description from "../description/descriptions";
+import WeatherDescription from "../weather-description/weather-description";
 import { WeeklyWeather } from "../weekly-weather/weekly-weather";
 import "./style.css";
 function Dashboard() {
@@ -41,7 +41,7 @@ function Dashboard() {
         currentTemp={weatherData?.main?.temp.toFixed()}
         cityName={weatherData?.name}
       />
-      <Description
+      <WeatherDescription
         todayDate={formatted}
         feelsLike={weatherData?.main?.feels_like.toFixed()}
         humidity={weatherData?.main?.humidity}
