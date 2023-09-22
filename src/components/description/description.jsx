@@ -3,7 +3,7 @@ import "./style.css";
 import { WindIcon } from "../../icons/wind-icon";
 import { HumidityIcon } from "../../icons/humidity-icon";
 import { PressureIcon } from "../../icons/pressure-icon";
-export default function WeatherDescription({
+export default function Description({
   todayDate,
   feelsLike,
   humidity,
