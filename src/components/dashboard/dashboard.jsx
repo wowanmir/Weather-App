@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import { getWeatherData } from "../../js/api";
 import Title from "../title/title";
 import { WeeklyWeather } from "../weekly-weather/weekly-weather";
-import Description from "../description/description";
 import "./style.css";
+import Description from "../description/description";
 function Dashboard() {
   const [weatherData, setWeatherData] = useState({});
+  const [currentCity, setCurrentCity] = useState('Omsk')
 
   useEffect(() => {
-    getWeatherData()
+    getWeatherData(currentCity)
       .then((data) => {
         setWeatherData(data);
         console.log(data);
@@ -16,7 +17,7 @@ function Dashboard() {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [currentCity]);
 
   const today = new Date();
   const options = {
@@ -41,6 +42,10 @@ function Dashboard() {
         currentTemp={weatherData?.main?.temp.toFixed()}
         cityName={weatherData?.name}
       />
+      <div style={{display: 'flex', gap: 10, padding: 20}}>
+      <button style={{fontSize: 32, color: 'red', }} onClick={() => setCurrentCity('Omsk')}>ОМСК БЛЯТЬ</button>
+      <button style={{fontSize: 32, color: 'red'}}  onClick={() => setCurrentCity('Moscow')}>МОСКВА ЕБАТЬ</button>
+      </div>
       
       <Description
         todayDate={formatted}
@@ -54,3 +59,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
