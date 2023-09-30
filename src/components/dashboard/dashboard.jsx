@@ -6,7 +6,7 @@ import "./style.css";
 import Description from "../description/description";
 function Dashboard() {
   const [weatherData, setWeatherData] = useState({});
-  const [currentCity, setCurrentCity] = useState('Omsk')
+  const [currentCity, setCurrentCity] = useState("Omsk");
 
   useEffect(() => {
     getWeatherData(currentCity)
@@ -40,23 +40,24 @@ function Dashboard() {
       <Title
         imgWeather={weatherData?.weather?.[0].icon}
         currentTemp={weatherData?.main?.temp.toFixed()}
-        cityName={weatherData?.name}
       />
-      <div style={{display: 'flex', gap: 10, padding: 20}}>
-      <button style={{fontSize: 32, color: 'red', }} onClick={() => setCurrentCity('Omsk')}>ОМСК БЛЯТЬ</button>
-      <button style={{fontSize: 32, color: 'red'}}  onClick={() => setCurrentCity('Moscow')}>МОСКВА ЕБАТЬ</button>
-      </div>
-      
+      <select className="city" onChange={(e) => setCurrentCity(e.target.value)}>
+        <option value="Omsk">Омск</option>
+        <option value="Moskva">Москва</option>
+        <option value="Astana">Астана</option>
+        <option value="Kazan">Казань</option>
+        <option value="Novosibirsk">Новосибирск</option>
+      </select>
+
       <Description
         todayDate={formatted}
         feelsLike={weatherData?.main?.feels_like.toFixed()}
         humidity={weatherData?.main?.humidity}
         pressure={weatherData?.main?.pressure}
-        />
+      />
       <WeeklyWeather />
     </div>
   );
 }
 
 export default Dashboard;
-

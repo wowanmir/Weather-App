@@ -1,7 +1,7 @@
-export const getWeatherData = async (currentCity) => {
+export const getWeatherData = async (currentCity, currentDegree) => {
   try {
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${currentCity}&appid=bda6bd69d127f46ad3ff173087befb65&lang=ru&units=metric`
+      `http://api.openweathermap.org/data/2.5/weather?q=${currentCity}&appid=bda6bd69d127f46ad3ff173087befb65&lang=ru&units=${currentDegree}`
     );
     return response.json();
   } catch (error) {
@@ -19,3 +19,5 @@ export const getWeeklyWeather = async () => {
     console.error(error);
   }
 };
+// imperial //фаренгейты
+// ьуекшс// цельсия
