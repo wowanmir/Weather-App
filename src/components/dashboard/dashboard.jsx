@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { getWeatherData } from "../../js/api";
 import Title from "../title/title";
 import { WeeklyWeather } from "../weekly-weather/weekly-weather";
-import "./style.css";
 import Description from "../description/description";
+import "./style.css";
 function Dashboard() {
   const [weatherData, setWeatherData] = useState({});
 
