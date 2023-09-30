@@ -1,9 +1,9 @@
 import "./style.css";
-import { svgSelector } from "../SvgSelector/svgSelector";
+import { SvgSelector } from "../SvgSelector/svgSelector";
 import { CelciaIcon } from "../../../icons/celcia-icon"
 export function WeeklyWeatherItem({ temp, weather, day }) {
   const getIconWeather = () =>
-    weather !== undefined ? svgSelector(weather) : svgSelector("01d");
+    weather !== undefined ? SvgSelector(weather) : SvgSelector("01d");
 
   const getDayWeek = () => {
     const shortDaysWeek = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"];

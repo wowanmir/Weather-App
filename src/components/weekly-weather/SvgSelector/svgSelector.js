@@ -1,4 +1,4 @@
-export const svgSelector = (id) => {
+export const SvgSelector = (id) => {
   switch (id) {
     case "01d":
       return (

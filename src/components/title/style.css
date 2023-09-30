@@ -1,3 +1,9 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .title {
   display: flex;
   flex-direction: column;
@@ -13,4 +19,9 @@
 }
 .city {
   font-size: 1.6em;
+}
+.toggle {
+  background-color: #FFFFFF29;
+  border-radius: 15px;
+  padding:10px;
 }
