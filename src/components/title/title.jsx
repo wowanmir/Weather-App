@@ -4,34 +4,49 @@ import { CelciaIcon } from "../../icons/celcia-icon.jsx";
 import { SvgSelector } from "../weekly-weather/SvgSelector/svgSelector";
 import "./style.css";
 
-function Title({ currentTemp, imgWeather }) {
-  const [weatherData, setWeatherData] = useState({});
-  const [currentDegree, setCurrentDegree] = useState("");
+const DEGREE = {
+  IMPERIAL: "imperial",
+  METRIC: "metric",
+}
 
-  useEffect(() => {
-    getWeatherData(currentDegree)
-      .then((data) => {
-        setWeatherData(data);
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, [currentDegree]);
+function Title({ currentTemp, imgWeather }) {
+  const [currentDegree, setCurrentDegree] = useState(DEGREE.METRIC);
+
   const getIconWeather = () =>
     imgWeather !== undefined ? SvgSelector(imgWeather) : SvgSelector("02d");
 
+  const getCurrentTemp = (currentTemp) => {
+    switch (currentDegree) {
+      case "imperial":
+        return `${currentTemp}°F`;
+      case "metric":
+        return `${((currentTemp - 273.15)).toFixed(1)}°C`;
+      default:
+        return currentTemp;
+    }
+  };
+  
+  const handleChangeDegree = () => {
+    console.log('currentDegree', currentDegree)
+    if (currentDegree === DEGREE.IMPERIAL) {
+      setCurrentDegree(DEGREE.METRIC);
+    } else {
+      setCurrentDegree(DEGREE.IMPERIAL);
+    }
+  }
+  
+  console.log('currentDegree', currentDegree)
   return (
     <div className="header">
       <div className="title">
         <span>{getIconWeather(imgWeather)} </span>
         <span className="temp">
-          {currentTemp} <CelciaIcon size="22" />
+          {getCurrentTemp(currentTemp)} <CelciaIcon size="22" />
         </span>
       </div>
       <button
         className="toggle"
-        onChange={(e) => setCurrentDegree(e.target.value)}
+        onClick={handleChangeDegree}
       >
         Change F-C
       </button>
