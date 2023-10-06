@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { getWeatherData } from "../../js/api";
 import Title from "../title/title";
-import { WeeklyWeather } from "../weekly-weather/weekly-weather";
-import "./style.css";
 import Description from "../description/description";
+import { getWeatherData } from "../../js/api";
+import { WeeklyWeather } from "../weekly-weather/weekly-weather";
+import { DEGREE } from "../../utils/getTempToDegree";
+import "./style.css";
+
 function Dashboard() {
   const [weatherData, setWeatherData] = useState({});
   const [currentCity, setCurrentCity] = useState("Omsk");
+  const [currentDegree, setCurrentDegree] = useState(DEGREE.METRIC);
 
   useEffect(() => {
     getWeatherData(currentCity)
@@ -18,6 +21,14 @@ function Dashboard() {
         console.log(error);
       });
   }, [currentCity]);
+
+  const handleChangeDegree = () => {
+    if (currentDegree === DEGREE.IMPERIAL) {
+      setCurrentDegree(DEGREE.METRIC);
+    } else {
+      setCurrentDegree(DEGREE.IMPERIAL);
+    }
+  };
 
   const today = new Date();
   const options = {
@@ -35,9 +46,12 @@ function Dashboard() {
   const capitalizedDayOfWeek =
     dayOfWeek.charAt(0).toUpperCase() + dayOfWeek.slice(1);
   const formatted = formattedDate.replace(dayOfWeek, capitalizedDayOfWeek);
+
   return (
     <div className="wrapper">
       <Title
+        handleChangeDegree={handleChangeDegree}
+        currentDegree={currentDegree}
         imgWeather={weatherData?.weather?.[0].icon}
         currentTemp={weatherData?.main?.temp.toFixed()}
       />
@@ -50,12 +64,13 @@ function Dashboard() {
       </select>
 
       <Description
+        currentDegree={currentDegree}
         todayDate={formatted}
         feelsLike={weatherData?.main?.feels_like.toFixed()}
         humidity={weatherData?.main?.humidity}
         pressure={weatherData?.main?.pressure}
       />
-      <WeeklyWeather />
+      <WeeklyWeather currentCity={currentCity} currentDegree={currentDegree} />
     </div>
   );
 }

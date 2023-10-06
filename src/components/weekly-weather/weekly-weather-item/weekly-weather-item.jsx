@@ -1,6 +1,5 @@
 import "./style.css";
 import { SvgSelector } from "../SvgSelector/svgSelector";
-import { CelciaIcon } from "../../../icons/celcia-icon"
 export function WeeklyWeatherItem({ temp, weather, day }) {
   const getIconWeather = () =>
     weather !== undefined ? SvgSelector(weather) : SvgSelector("01d");
@@ -14,7 +13,7 @@ export function WeeklyWeatherItem({ temp, weather, day }) {
 
   return (
     <div className="weekly-weather-item">
-      <span className="temp-weekly"> {temp} <CelciaIcon size="15" /> </span>
+      <span className="temp-weekly">{temp}</span>
       <span> {getIconWeather(weather)}</span>
       <span> {getDayWeek(day)}</span>
     </div>

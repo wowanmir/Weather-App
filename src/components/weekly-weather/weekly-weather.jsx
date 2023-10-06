@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { getWeeklyWeather } from "../../js/api";
 import { WeeklyWeatherItem } from "./weekly-weather-item/weekly-weather-item";
+import { getTempToDegree } from "../../utils/getTempToDegree";
 import "./weekly-weather-item/style.css";
-export const WeeklyWeather = () => {
+export const WeeklyWeather = ({ currentCity, currentDegree }) => {
   const [weeklyData, setWeeklyData] = useState({
     list: [],
   });
 
   useEffect(() => {
-    getWeeklyWeather()
+    getWeeklyWeather(currentCity)
       .then((data) => {
         setWeeklyData(data);
         console.log(data);
@@ -16,7 +17,7 @@ export const WeeklyWeather = () => {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [currentCity]);
 
   return (
     <div className="weekly-weather">
@@ -25,7 +26,7 @@ export const WeeklyWeather = () => {
         .map((list) => (
           <WeeklyWeatherItem
             key={list.dt}
-            temp={list?.main?.temp.toFixed()}
+            temp={getTempToDegree(list?.main?.temp.toFixed(),currentDegree)}
             weather={list?.weather[0].icon}
             day={list?.dt_txt}
           />
